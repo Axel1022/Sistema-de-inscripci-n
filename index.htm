@@ -12,6 +12,57 @@
 </head>
 
 <body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h6 class="mb-1">Datos personales</h6>
+                <div class="card">
+                    <div class="card-header bg-primary text-light text-center">
+                        <h5 class="mb-0">Datos personales</h5>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombre:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="Provincia">Provincia:</label>
+                                <input type="text" class="form-control" id="Provincia">
+                            </div>
+                            <div class="form-group">
+                                <label for="Cuidad">Cuidad:</label>
+                                <input type="text" class="form-control" id="Cuidad">
+                            </div>
+                            <div class="form-group">
+                                <label for="Sector">Sector:</label>
+                                <input type="text" class="form-control" id="Sector">
+                            </div>
+                            <div class="form-group">
+                                <label for="Calle">Calle:</label>
+                                <input type="text" class="form-control" id="Calle">
+                            </div>
+                            <div class="form-group">
+                                <label for="Carrera">Carrera:</label>
+                                <select class="form-control" id="Carrera">
+                                    <option value="">Seleccione una opción</option>
+                                    <option value="desarrollo-software">Tecnolog en Desarrollo de Software</option>
+                                    <option value="redes-informacion">Tecnolog en Redes de Información</option>
+                                    <option value="mecatronica">Tecnolog en Mecatronica</option>
+                                    <option value="multimedia">Tecnolog en Multimedia</option>
+                                    <option value="seguridad-informatica">Tecnolog en Seguridad Informatica</option>
+                                </select>
+                            </div>
+                            <div class="mt-3">
+                                <button type="submit" class="btn btn-outline-warning float-end ">Limpiar</button>
+                                <button type="submit" class="btn btn-outline-primary float-end me-2">Registrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./assets/js/lib/jquery/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/lib/toast/toastr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.js"></script>
