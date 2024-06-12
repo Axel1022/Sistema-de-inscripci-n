@@ -316,6 +316,12 @@ $(function () {
   let materia4Check = " ";
   let materia5Check = " ";
 
+  let Materia1 = "";
+  let Materia2 = "";
+  let Materia3 = "";
+  let Materia4 = "";
+  let Materia5 = "";
+
   carreraCurrent = "";
   //#endregion
 
@@ -351,12 +357,12 @@ $(function () {
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-Confirmar", function () {
     //FUNCIONA!!!
-    alert("Funciona");
+    alert("Es todo jefe");
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-AtrasConfirmar", function () {
-      //FUNCIONA!!!
-      GeneraHTMLSeleccionMaterias();
-      DevolverDatosMaterias();
+    //FUNCIONA!!!
+    GeneraHTMLSeleccionMaterias();
+    DevolverDatosMaterias();
 
     alert("Funciona");
   });
@@ -390,35 +396,35 @@ $(function () {
                                         <form id="materia1">
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia1" type="radio" id="materia1-1"
-                                                    name="materia1" value="1">
+                                                    name="materia1" value="${carrerasMateriasxd[carreraCurrent].materias[0].horarios[0]}">
                                                 <label class="form-check-label" for="materia1-1">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[0].horarios[0]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia1" type="radio" id="materia1-2"
-                                                    name="materia1" value="2">
+                                                    name="materia1" value="${carrerasMateriasxd[carreraCurrent].materias[0].horarios[1]}">
                                                 <label class="form-check-label" for="materia1-2">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[0].horarios[1]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia1" type="radio" id="materia1-3"
-                                                    name="materia1" value="3">
+                                                    name="materia1" value="${carrerasMateriasxd[carreraCurrent].materias[0].horarios[2]}">
                                                 <label class="form-check-label" for="materia1-3">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[0].horarios[2]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia1" type="radio" id="materia1-4"
-                                                    name="materia1" value="4">
+                                                    name="materia1" value="${carrerasMateriasxd[carreraCurrent].materias[0].horarios[3]}">
                                                 <label class="form-check-label" for="materia1-4">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[0].horarios[3]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia1" type="radio" id="materia1-5"
-                                                    name="materia1" value="5">
+                                                    name="materia1" value="${carrerasMateriasxd[carreraCurrent].materias[0].horarios[4]}">
                                                 <label class="form-check-label" for="materia1-5">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[0].horarios[4]}
                                                 </label>
@@ -444,35 +450,35 @@ $(function () {
                                         <form id="materia2">
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" id="materia2-1"
-                                                    name="materia2" value="1">
+                                                    name="materia2" value="${carrerasMateriasxd[carreraCurrent].materias[1].horarios[0]}">
                                                 <label class="form-check-label" for="materia2-1">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[1].horarios[0]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia2" type="radio" id="materia2-2"
-                                                    name="materia2" value="2">
+                                                    name="materia2" value="${carrerasMateriasxd[carreraCurrent].materias[1].horarios[1]}">
                                                 <label class="form-check-label" for="materia2-2">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[1].horarios[1]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia2" type="radio" id="materia2-3"
-                                                    name="materia2" value="3">
+                                                    name="materia2" value="${carrerasMateriasxd[carreraCurrent].materias[1].horarios[2]}">
                                                 <label class="form-check-label" for="materia2-3">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[1].horarios[2]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia2" type="radio" id="materia2-4"
-                                                    name="materia2" value="4">
+                                                    name="materia2" value="${carrerasMateriasxd[carreraCurrent].materias[1].horarios[3]}">
                                                 <label class="form-check-label" for="materia2-4">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[1].horarios[3]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia2" type="radio" id="materia2-5"
-                                                    name="materia2" value="5">
+                                                    name="materia2" value="${carrerasMateriasxd[carreraCurrent].materias[1].horarios[4]}">
                                                 <label class="form-check-label" for="materia2-5">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[1].horarios[4]}
                                                 </label>
@@ -498,35 +504,35 @@ $(function () {
                                         <form id="materia3">
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia3" type="radio" id="materia3-1"
-                                                    name="materia3" value="1">
+                                                    name="materia3" value="${carrerasMateriasxd[carreraCurrent].materias[2].horarios[0]}">
                                                 <label class="form-check-label" for="materia3-1">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[2].horarios[0]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia3" type="radio" id="materia3-2"
-                                                    name="materia3" value="2">
+                                                    name="materia3" value="${carrerasMateriasxd[carreraCurrent].materias[2].horarios[1]}">
                                                 <label class="form-check-label" for="materia3-2">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[2].horarios[1]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia3" type="radio" id="materia3-3"
-                                                    name="materia3" value="3">
+                                                    name="materia3" value="${carrerasMateriasxd[carreraCurrent].materias[2].horarios[2]}">
                                                 <label class="form-check-label" for="materia3-3">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[2].horarios[2]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia3" type="radio" id="materia3-4"
-                                                    name="materia3" value="4">
+                                                    name="materia3" value="${carrerasMateriasxd[carreraCurrent].materias[2].horarios[3]}">
                                                 <label class="form-check-label" for="materia3-4">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[2].horarios[3]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia3" type="radio" id="materia3-5"
-                                                    name="materia3" value="5">
+                                                    name="materia3" value="${carrerasMateriasxd[carreraCurrent].materias[2].horarios[4]}">
                                                 <label class="form-check-label" for="materia3-5">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[2].horarios[4]}
                                                 </label>
@@ -552,35 +558,35 @@ $(function () {
                                         <form id="materia4">
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia4" type="radio" id="materia4-1"
-                                                    name="materia4" value="1">
+                                                    name="materia4" value="${carrerasMateriasxd[carreraCurrent].materias[3].horarios[0]}">
                                                 <label class="form-check-label" for="materia4-1">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[3].horarios[0]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia4" type="radio" id="materia4-2"
-                                                    name="materia4" value="2">
+                                                    name="materia4" value="${carrerasMateriasxd[carreraCurrent].materias[3].horarios[1]}">
                                                 <label class="form-check-label" for="materia4-2">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[3].horarios[1]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia4" type="radio" id="materia4-3"
-                                                    name="materia4" value="3">
+                                                    name="materia4" value="${carrerasMateriasxd[carreraCurrent].materias[3].horarios[2]}">
                                                 <label class="form-check-label" for="materia4-3">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[3].horarios[2]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia4" type="radio" id="materia4-4"
-                                                    name="materia4" value="4">
+                                                    name="materia4" value="${carrerasMateriasxd[carreraCurrent].materias[3].horarios[3]}">
                                                 <label class="form-check-label" for="materia4-4">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[3].horarios[3]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia4" type="radio" id="materia4-5"
-                                                    name="materia4" value="5">
+                                                    name="materia4" value="${carrerasMateriasxd[carreraCurrent].materias[3].horarios[4]}">
                                                 <label class="form-check-label" for="materia4-5">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[3].horarios[4]}
                                                 </label>
@@ -606,35 +612,35 @@ $(function () {
                                         <form id="materia5">
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia5" type="radio" id="materia5-1"
-                                                    name="materia5" value="1">
+                                                    name="materia5" value="${carrerasMateriasxd[carreraCurrent].materias[4].horarios[0]}">
                                                 <label class="form-check-label" for="materia5-1">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[4].horarios[0]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia5" type="radio" id="materia5-2"
-                                                    name="materia5" value="2">
+                                                    name="materia5" value="${carrerasMateriasxd[carreraCurrent].materias[4].horarios[1]}">
                                                 <label class="form-check-label" for="materia5-2">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[4].horarios[1]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia5" type="radio" id="materia5-3"
-                                                    name="materia5" value="3">
+                                                    name="materia5" value="${carrerasMateriasxd[carreraCurrent].materias[4].horarios[2]}">
                                                 <label class="form-check-label" for="materia5-3">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[4].horarios[2]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia5" type="radio" id="materia5-4"
-                                                    name="materia5" value="4">
+                                                    name="materia5" value="${carrerasMateriasxd[carreraCurrent].materias[4].horarios[3]}">
                                                 <label class="form-check-label" for="materia5-4">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[4].horarios[3]}
                                                 </label>
                                             </div>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input materia5" type="radio" id="materia5-5"
-                                                    name="materia5" value="5">
+                                                    name="materia5" value="${carrerasMateriasxd[carreraCurrent].materias[4].horarios[4]}">
                                                 <label class="form-check-label" for="materia5-5">
                                                 ${carrerasMateriasxd[carreraCurrent].materias[4].horarios[4]}
                                                 </label>
@@ -659,7 +665,6 @@ $(function () {
   function GeneraHTMLDatosPersonales() {
     const ContenidoHTMLPersonal = `
     <div class="col-6 offset-3 agregadoDinamicamente">
-                <h6 class="mb-1">Datos personales</h6>
                 <div class="card shadow-lg">
                     <div class="card-header bg-primary text-light text-center">
                         <h5 class="mb-0">Datos personales</h5>
@@ -711,6 +716,7 @@ $(function () {
     $("#ContenedorHTMLDinamico").html(ContenidoHTMLPersonal);
   }
   function GeneraHTMLDatosConfirmacion() {
+    ObtenerMaterias();
     const ContenidoHTMLConfirmacion = `
               <div class="container mt-5">
         <div class="row justify-content-center">
@@ -731,7 +737,9 @@ $(function () {
                                     <li class="list-group-item">Ciudad: ${valueCuidad}</li>
                                     <li class="list-group-item">Sector: ${valueSector}</li>
                                     <li class="list-group-item">Calle: ${valueCalle}</li>
-                                    <li class="list-group-item">Carrera: ${carrerasMateriasxd[carreraCurrent].carrera}</li>
+                                    <li class="list-group-item">Carrera: ${
+                                      carrerasMateriasxd[carreraCurrent].carrera
+                                    }</li>
                                 </ul>
                             </div>
                         </div>
@@ -753,44 +761,114 @@ $(function () {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <th scope="row">${carrerasMateriasxd[carreraCurrent].materias[0].nombre}</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>Horario</td>
+                                            <th scope="row">${Materia1}</th>
+                                            <td>
+                                            ${DiaSeleccionadoLunes(
+                                              materia1Check
+                                            )}
+                                            </td>
+                                            <td>
+                                            ${DiaSeleccionadoMarte(
+                                              materia1Check
+                                            )}
+                                            </td>
+                                            <td>${DiaSeleccionadoMiercoles(
+                                              materia1Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoJueves(
+                                              materia1Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoViernes(
+                                              materia1Check
+                                            )}</td>
+                                        </tr>
+                                         <tr>
+                                            <th scope="row">${Materia2}</th>
+                                            <td>
+                                            ${DiaSeleccionadoLunes(
+                                              materia2Check
+                                            )}
+                                            </td>
+                                            <td>
+                                            ${DiaSeleccionadoMarte(
+                                              materia2Check
+                                            )}
+                                            </td>
+                                            <td>${DiaSeleccionadoMiercoles(
+                                              materia2Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoJueves(
+                                              materia2Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoViernes(
+                                              materia2Check
+                                            )}</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">${carrerasMateriasxd[carreraCurrent].materias[1].nombre}</th>
-                                            <td>Horario</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th scope="row">${Materia3}</th>
+                                            <td>
+                                            ${DiaSeleccionadoLunes(
+                                              materia3Check
+                                            )}
+                                            </td>
+                                            <td>
+                                            ${DiaSeleccionadoMarte(
+                                              materia3Check
+                                            )}
+                                            </td>
+                                            <td>${DiaSeleccionadoMiercoles(
+                                              materia3Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoJueves(
+                                              materia3Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoViernes(
+                                              materia3Check
+                                            )}</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">${carrerasMateriasxd[carreraCurrent].materias[2].nombre}</th>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td>Horario</td>
-                                            <td></td>
+                                            <th scope="row">${Materia4}</th>
+                                            <td>
+                                            ${DiaSeleccionadoLunes(
+                                              materia4Check
+                                            )}
+                                            </td>
+                                            <td>
+                                            ${DiaSeleccionadoMarte(
+                                              materia4Check
+                                            )}
+                                            </td>
+                                            <td>${DiaSeleccionadoMiercoles(
+                                              materia4Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoJueves(
+                                              materia4Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoViernes(
+                                              materia4Check
+                                            )}</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">${carrerasMateriasxd[carreraCurrent].materias[3].nombre}</th>
-                                            <td></td>
-                                            <td>Horario</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">${carrerasMateriasxd[carreraCurrent].materias[4].nombre}</th>
-                                            <td>Horario</td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
-                                            <td></td>
+                                            <th scope="row">${Materia5}</th>
+                                            <td>
+                                            ${DiaSeleccionadoLunes(
+                                              materia5Check
+                                            )}
+                                            </td>
+                                            <td>
+                                            ${DiaSeleccionadoMarte(
+                                              materia5Check
+                                            )}
+                                            </td>
+                                            <td>${DiaSeleccionadoMiercoles(
+                                              materia5Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoJueves(
+                                              materia5Check
+                                            )}</td>
+                                            <td>${DiaSeleccionadoViernes(
+                                              materia5Check
+                                            )}</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -908,7 +986,6 @@ $(function () {
     valueCalle = $("#Calle").val();
     valueCarrera = $("#Carrera").val();
     carreraCurrent = valueCarrera;
-    console.log(carreraCurrent);
 
     if (valueName == "" || valueName == null || valueName == undefined) {
       isValid = false;
@@ -1146,9 +1223,42 @@ $(function () {
     //       true
     //     );
   }
-  function DiaSeleccionado(dia) {
+  function DiaSeleccionadoLunes(dia) {
     sub = dia.substring(0, 2);
-    return sub;
+    if (sub == "Lu") {
+      return dia;
+    } else return "";
+  }
+  function DiaSeleccionadoMarte(dia) {
+    sub = dia.substring(0, 2);
+    if (sub == "Ma") {
+      return dia;
+    } else return "";
+  }
+  function DiaSeleccionadoMiercoles(dia) {
+    sub = dia.substring(0, 2);
+    if (sub == "Mi") {
+      return dia;
+    } else return "";
+  }
+  function DiaSeleccionadoJueves(dia) {
+    sub = dia.substring(0, 2);
+    if (sub == "Ju") {
+      return dia;
+    } else return "";
+  }
+  function DiaSeleccionadoViernes(dia) {
+    sub = dia.substring(0, 2);
+    if (sub == "Vi") {
+      return dia;
+    } else return "";
+  }
+  function ObtenerMaterias() {
+    Materia1 = carrerasMateriasxd[carreraCurrent].materias[0].nombre;
+    Materia2 = carrerasMateriasxd[carreraCurrent].materias[1].nombre;
+    Materia3 = carrerasMateriasxd[carreraCurrent].materias[2].nombre;
+    Materia4 = carrerasMateriasxd[carreraCurrent].materias[3].nombre;
+    Materia5 = carrerasMateriasxd[carreraCurrent].materias[4].nombre;
   }
 
   //#endregion
