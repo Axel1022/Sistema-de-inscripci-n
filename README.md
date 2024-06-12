@@ -48,4 +48,4 @@ Para cualquier pregunta o comentario, puedes contactar al autor:
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-gi
+

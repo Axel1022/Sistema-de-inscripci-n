@@ -7,56 +7,51 @@ $(function () {
         {
           nombre: "Programación I",
           horarios: [
-            "Lu 08 - 10",
-            "Ma 08 - 10",
-            "Mi 08 - 10",
-            "Ju 08 - 10",
-            "Vi 08 - 10",
-            "Sa 08 - 10",
+            "Lu 08 a 10",
+            "Ma 08 a 10",
+            "Mi 08 a 10",
+            "Ju 08 a 10",
+            "Vi 08 a 10",
           ],
         },
         {
           nombre: "Estructuras de Datos",
           horarios: [
-            "Lu 10 - 12",
-            "Ma 10 - 12",
-            "Mi 10 - 12",
-            "Ju 10 - 12",
-            "Vi 10 - 12",
-            "Sa 10 - 12",
+            "Lu 10 a 12",
+            "Ma 10 a 12",
+            "Mi 10 a 12",
+            "Ju 10 a 12",
+            "Vi 10 a 12",
           ],
         },
         {
           nombre: "Ingeniería de Requisitos",
           horarios: [
-            "Lu 12 - 14",
-            "Ma 12 - 14",
-            "Mi 12 - 14",
-            "Ju 12 - 14",
-            "Vi 12 - 14",
-            "Sa 12 - 14",
+            "Lu 12 a 14",
+            "Ma 12 a 14",
+            "Mi 12 a 14",
+            "Ju 12 a 14",
+            "Vi 12 a 14",
           ],
         },
         {
           nombre: "Bases de Datos",
           horarios: [
-            "Lu 14 - 16",
-            "Ma 14 - 16",
-            "Mi 14 - 16",
-            "Ju 14 - 16",
-            "Vi 14 - 16",
-            "Sa 14 - 16",
+            "Lu 14 a 16",
+            "Ma 14 a 16",
+            "Mi 14 a 16",
+            "Ju 14 a 16",
+            "Vi 14 a 16",
           ],
         },
         {
           nombre: "Desarrollo de Aplicaciones Web",
           horarios: [
-            "Lu 16 - 18",
-            "Ma 16 - 18",
-            "Mi 16 - 18",
-            "Ju 16 - 18",
-            "Vi 16 - 18",
-            "Sa 16 - 18",
+            "Lu 16 a 18",
+            "Ma 16 a 18",
+            "Mi 16 a 18",
+            "Ju 16 a 18",
+            "Vi 16 a 18",
           ],
         },
       ],
@@ -127,56 +122,51 @@ $(function () {
         {
           nombre: "Diseño Gráfico",
           horarios: [
-            "Lu 08 - 10",
-            "Ma 08 - 10",
-            "Mi 08 - 10",
-            "Ju 08 - 10",
-            "Vi 08 - 10",
-            "Sa 08 - 10",
+            "Lu 08 a 10",
+            "Ma 12 a 14",
+            "Mi 08 a 10",
+            "Ju 20 a 22",
+            "Vi 08 a 10",
           ],
         },
         {
           nombre: "Animación 2D",
           horarios: [
-            "Lu 10 - 12",
-            "Ma 10 - 12",
-            "Mi 10 - 12",
-            "Ju 10 - 12",
-            "Vi 10 - 12",
-            "Sa 08 - 10",
+            "Lu 10 a 12",
+            "Ma 10 a 12",
+            "Mi 10 a 12",
+            "Ju 18 a 20",
+            "Vi 14 a 20",
           ],
         },
         {
           nombre: "Edición de Video",
           horarios: [
-            "Lu 12 - 14",
-            "Ma 12 - 14",
-            "Mi 12 - 14",
-            "Ju 12 - 14",
-            "Vi 12 - 14",
-            "Sa 08 - 10",
+            "Lu 12 a 14",
+            "Ma 12 a 14",
+            "Mi 12 a 14",
+            "Ju 12 a 14",
+            "Vi 12 a 14",
           ],
         },
         {
           nombre: "Producción Multimedia",
           horarios: [
-            "Lu 14 - 16",
-            "Ma 14 - 16",
-            "Mi 14 - 16",
-            "Ju 14 - 16",
-            "Vi 14 - 16",
-            "Sa 08 - 10",
+            "Lu 14 a 16",
+            "Ma 14 a 16",
+            "Mi 14 a 16",
+            "Ju 14 a 16",
+            "Vi 14 a 16",
           ],
         },
         {
           nombre: "Diseño de Interfaces",
           horarios: [
-            "Lu 16 - 18",
-            "Ma 16 - 18",
-            "Mi 16 - 18",
-            "Ju 16 - 18",
-            "Vi 16 - 18",
-            "Sa 08 - 10",
+            "Lu 16 a 18",
+            "Ma 16 a 18",
+            "Mi 16 a 18",
+            "Ju 16 a 18",
+            "Vi 16 a 18",
           ],
         },
       ],
@@ -187,56 +177,51 @@ $(function () {
         {
           nombre: "Circuitos Eléctricos",
           horarios: [
-            "Lu 08 - 10",
-            "Ma 08 - 10",
-            "Mi 08 - 10",
-            "Ju 08 - 10",
-            "Vi 08 - 10",
-            "Sa 08 - 10",
+            "Lu 08 a 10",
+            "Ma 08 a 10",
+            "Mi 08 a 10",
+            "Ju 08 a 10",
+            "Vi 08 a 10",
           ],
         },
         {
           nombre: "Electrónica Digital",
           horarios: [
-            "Lu 10 - 12",
-            "Ma 10 - 12",
-            "Mi 10 - 12",
-            "Ju 10 - 12",
-            "Vi 10 - 12",
-            "Sa 08 - 10",
+            "Lu 10 a 12",
+            "Ma 10 a 12",
+            "Mi 10 a 12",
+            "Ju 10 a 12",
+            "Vi 10 a 12",
           ],
         },
         {
           nombre: "Sistemas de Control",
           horarios: [
-            "Lu 12 - 14",
-            "Ma 12 - 14",
-            "Mi 12 - 14",
-            "Ju 12 - 14",
-            "Vi 12 - 14",
-            "Sa 08 - 10",
+            "Lu 12 a 14",
+            "Ma 12 a 14",
+            "Mi 12 a 14",
+            "Ju 12 a 14",
+            "Vi 12 a 14",
           ],
         },
         {
           nombre: "Robótica",
           horarios: [
-            "Lu 14 - 16",
-            "Ma 14 - 16",
-            "Mi 14 - 16",
-            "Ju 14 - 16",
-            "Vi 14 - 16",
-            "Sa 08 - 10",
+            "Lu 14 a 16",
+            "Ma 14 a 16",
+            "Mi 14 a 16",
+            "Ju 14 a 16",
+            "Vi 14 a 16",
           ],
         },
         {
           nombre: "Mecanismos",
           horarios: [
-            "Lu 16 - 18",
-            "Ma 16 - 18",
-            "Mi 16 - 18",
-            "Ju 16 - 18",
-            "Vi 16 - 18",
-            "Sa 08 - 10",
+            "Lu 16 a 18",
+            "Ma 16 a 18",
+            "Mi 16 a 18",
+            "Ju 16 a 18",
+            "Vi 16 a 18",
           ],
         },
       ],
@@ -247,56 +232,51 @@ $(function () {
         {
           nombre: "Estadística",
           horarios: [
-            "Lu 08 - 10",
-            "Ma 08 - 10",
-            "Mi 08 - 10",
-            "Ju 08 - 10",
-            "Vi 08 - 10",
-            "Sa 08 - 10",
+            "Lu 08 a 10",
+            "Ma 08 a 10",
+            "Mi 08 a 10",
+            "Ju 08 a 10",
+            "Vi 08 a 10",
           ],
         },
         {
           nombre: "Minería de Datos",
           horarios: [
-            "Lu 10 - 12",
-            "Ma 10 - 12",
-            "Mi 10 - 12",
-            "Ju 10 - 12",
-            "Vi 10 - 12",
-            "Sa 08 - 10",
+            "Lu 10 a 12",
+            "Ma 10 a 12",
+            "Mi 10 a 12",
+            "Ju 10 a 12",
+            "Vi 10 a 12",
           ],
         },
         {
           nombre: "Aprendizaje Automático",
           horarios: [
-            "Lu 12 - 14",
-            "Ma 12 - 14",
-            "Mi 12 - 14",
-            "Ju 12 - 14",
-            "Vi 12 - 14",
-            "Sa 08 - 10",
+            "Lu 12 a 14",
+            "Ma 12 a 14",
+            "Mi 12 a 14",
+            "Ju 12 a 14",
+            "Vi 12 a 14",
           ],
         },
         {
           nombre: "Visualización de Datos",
           horarios: [
-            "Lu 14 - 16",
-            "Ma 14 - 16",
-            "Mi 14 - 16",
-            "Ju 14 - 16",
-            "Vi 14 - 16",
-            "Sa 08 - 10",
+            "Lu 14 a 16",
+            "Ma 14 a 16",
+            "Mi 14 a 16",
+            "Ju 14 a 16",
+            "Vi 14 a 16",
           ],
         },
         {
           nombre: "Big Data",
           horarios: [
-            "Lu 16 - 18",
-            "Ma 16 - 18",
-            "Mi 16 - 18",
-            "Ju 16 - 18",
-            "Vi 16 - 18",
-            "Sa 08 - 10",
+            "Lu 16 a 18",
+            "Ma 16 a 18",
+            "Mi 16 a 18",
+            "Ju 16 a 18",
+            "Vi 16 a 18",
           ],
         },
       ],
@@ -427,7 +407,7 @@ $(function () {
   //#region Funciones
   function GeneraHTMLSeleccionMaterias() {
     const ContenidoHTMLMateria = `
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
             <div class="col-6 offset-3 agregadoDinamicamente">
                 <div class="card shadow-lg">
@@ -440,7 +420,7 @@ $(function () {
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        <button class="btn " type="button" data-toggle="collapse"
                                             data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                               ${carrerasMateriasxd[carreraCurrent].materias[0].nombre}
                                         </button>
@@ -493,7 +473,7 @@ $(function () {
                             <div class="card">
                                 <div class="card-header" id="headingTwo">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        <button class="btn" type="button" data-toggle="collapse"
                                             data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                                             ${carrerasMateriasxd[carreraCurrent].materias[1].nombre}
 
@@ -547,7 +527,7 @@ $(function () {
                             <div class="card">
                                 <div class="card-header" id="headingThree">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        <button class="btn " type="button" data-toggle="collapse"
                                             data-target="#collapseThree" aria-expanded="true"
                                             aria-controls="collapseThree">
                                             ${carrerasMateriasxd[carreraCurrent].materias[2].nombre}
@@ -601,7 +581,7 @@ $(function () {
                             <div class="card">
                                 <div class="card-header" id="headingFour">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        <button class="btn " type="button" data-toggle="collapse"
                                             data-target="#collapseFour" aria-expanded="true"
                                             aria-controls="collapseFour">
                                            ${carrerasMateriasxd[carreraCurrent].materias[3].nombre}
@@ -655,7 +635,7 @@ $(function () {
                             <div class="card">
                                 <div class="card-header" id="headingFive">
                                     <h2 class="mb-0">
-                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                        <button class="btn " type="button" data-toggle="collapse"
                                             data-target="#collapseFive" aria-expanded="true"
                                             aria-controls="collapseFive">
                                            ${carrerasMateriasxd[carreraCurrent].materias[4].nombre}
@@ -702,13 +682,13 @@ $(function () {
                                                 </label>
                                             </div>
                                         </form>
-                                        <div class="mt-3">
-                                        <button type="button" class="btn btn-outline-warning float-end" id="btn-limpiarMateria">Limpiar</button>
-                                            <button type="button" class="btn btn-outline-info float-end me-2" id="btn-atras">Atras</button>
-                                            <button type="button" class="btn btn-outline-primary float-end me-2" id="btn-AceptarMateria">Aceptar</button>
-                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                             <div class="mt-2 justify-content-end ">
+                                <button type="button" class="btn btn-outline-primary float-end me-2" id="btn-AceptarMateria">Aceptar</button>
+                                <button type="button" class="btn btn-outline-warning float-end me-2" id="btn-limpiarMateria">Limpiar</button>
+                                <button type="button" class="btn btn-outline-info float-end me-2" id="btn-atras">Atras</button>
                             </div>
                         </div>
                     </div>
@@ -761,8 +741,8 @@ $(function () {
                                 </select>
                             </div>
                             <div class="mt-3">
-                                <button type="button" class="btn btn-outline-warning float-end" id="btn-limpiar">Limpiar</button>
-                                <button type="button" class="btn btn-outline-primary float-end me-2" id="btn-registrar">Registrar</button>
+                                <button type="button" class="btn btn-outline-primary float-end" id="btn-registrar">Registrar</button>
+                                <button type="button" class="btn btn-outline-warning float-end me-2" id="btn-limpiar">Limpiar</button>
                             </div>
                         </form>
                     </div>
@@ -774,7 +754,7 @@ $(function () {
   function GeneraHTMLDatosConfirmacion() {
     ObtenerMaterias();
     const ContenidoHTMLConfirmacion = `
-              <div class="container mt-5">
+              <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8 col-lg-6">
                 <div class="card shadow-lg">
@@ -807,7 +787,7 @@ $(function () {
                                 <table class="table table-bordered table-striped">
                                     <thead class="thead-dark">
                                         <tr>
-                                            <th scope="col">Materia</th>
+                                            <th scope="col">Asignaturas</th>
                                             <th scope="col">Lunes</th>
                                             <th scope="col">Martes</th>
                                             <th scope="col">Miércoles</th>
