@@ -330,41 +330,97 @@ $(function () {
   //#region  BtnClick
   $("#ContenedorHTMLDinamico").on("click", "#btn-registrar", function () {
     if (ValidatePersonalData()) {
+      toastr["success"]("Datos guardados", "Información ");
+
       GeneraHTMLSeleccionMaterias();
       DevolverDatosMaterias();
-      alert("Registration successful!"); // Add a message here
+    } else {
+      toastr["error"]("Complete los campos", "Error");
     }
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-limpiar", function () {
-    LimpiarDatosPersonales();
+    $.confirm({
+      title: "Are you sure",
+      content: "",
+      buttons: {
+        cancel: {
+          text: "Cancelar",
+          btnClass: "btn btn-danger",
+          action: function () {},
+        },
+        confirm: {
+          text: "Aceptar",
+          btnClass: "btn btn-success",
+          action: function () {
+            LimpiarDatosPersonales();
+          },
+        },
+      },
+    });
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-AceptarMateria", function () {
     //FUNCIONA!!!
     if (ValidateMaterias()) {
+      toastr["success"]("Datos guardados", "Información ");
+
       GeneraHTMLDatosConfirmacion();
     } else {
-      alert("Vacio!");
+      toastr["error"]("Complete los campos", "Error");
     }
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-limpiarMateria", function () {
-    //FUNCIONA!!!
-    LimpiarMateria();
+    $.confirm({
+      title: "Are you sure",
+      content: "",
+      buttons: {
+        cancel: {
+          text: "Cancelar",
+          btnClass: "btn btn-danger",
+          action: function () {},
+        },
+        confirm: {
+          text: "Aceptar",
+          btnClass: "btn btn-success",
+          action: function () {
+            LimpiarMateria();
+          },
+        },
+      },
+    });
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-atras", function () {
     //FUNCIONA!!!
+    //toastr["success"]("Datos guardados", "Información ");
     GeneraHTMLDatosPersonales();
     DevolverDatosPersonales();
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-Confirmar", function () {
-    //FUNCIONA!!!
-    alert("Es todo jefe");
+    $.confirm({
+      title: "Are you sure",
+      content: "",
+      buttons: {
+        cancel: {
+          text: "Cancelar",
+          btnClass: "btn btn-danger",
+          action: function () {},
+        },
+        confirm: {
+          text: "Aceptar",
+          btnClass: "btn btn-success",
+          action: function () {
+            toastr["info"]("Es todo jefe", "Información");
+
+            //Es todo Jefe
+          },
+        },
+      },
+    });
   });
   $("#ContenedorHTMLDinamico").on("click", "#btn-AtrasConfirmar", function () {
     //FUNCIONA!!!
+    //toastr["success"]("Datos guardados", "Información ");
     GeneraHTMLSeleccionMaterias();
     DevolverDatosMaterias();
-
-    alert("Funciona");
   });
   //#endregion
 
